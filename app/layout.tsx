@@ -7,20 +7,26 @@ export const metadata = {
   openGraph: {
     title: 'Amal & Abhirami — Wedding',
     description: 'Join our journey — Oct 19, 2025',
-    images: ['/og.png'],
-  }
-}
+    images: ['https://wedding-site-jnv87wczv-aleena-gleshin-s-projects.vercel.app/og.png'], // full URL
+  },
+};
+
+
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* OG image is in /public/og.png — replace with your image */}
-      </Head>
-      <body>
-        {children}
-      </body>
+    <Head>
+  <meta property="og:title" content="Amal & Abhirami — Wedding" />
+  <meta property="og:description" content="Join our journey — Oct 19, 2025" />
+  <meta property="og:image" content="https://wedding-site-qepw2e7ev-aleena-gleshin-s-projects.vercel.app/og.png" />
+  <meta property="og:url" content="https://wedding-site-qepw2e7ev-aleena-gleshin-s-projects.vercel.app" />
+  <meta property="og:type" content="website" />
+</Head>
+
+      <body>{children}</body>
     </html>
-  )
+  );
 }
+

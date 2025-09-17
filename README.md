@@ -1,5 +1,4 @@
-# Wedding Site - Next.js (Deploy-ready ZIP)
-
+# Wedding Site - Next.js 
 This is a minimal Next.js 14 app (app router) scaffold for the wedding site you described.
 Replace the placeholder images in `/public` with your actual images (names already match those used in the code).
 
