@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom gentle background like the Canva theme */
+:root {
+  --bg: #fbf6f7;
+  --accent:#bfa08c;
+  --muted:#8b8080;
+}
+html,body,#root { height:100%; }
+body {
+  background: var(--bg);
+  color: #222;
+  font-family: 'Times New Roman', ui-serif, Georgia, 'serif';
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* utility for overlay text */
+.overlay-center {
+  position: absolute; left:0; right:0; top:0; bottom:0;
+  display:flex; align-items:center; justify-content:center;
+}
+
+/* simple container to mimic printed-paper look */
+.container-print {
+  max-width:1100px;
+  margin:0 auto;
+  padding:4rem 1rem;
+}
