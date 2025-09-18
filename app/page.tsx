@@ -113,13 +113,21 @@ export default function Home() {
             </p>
 
 
-            {/* Time & Muhurtam Centered with smaller font and extra gap */}
-            <div className="text-center mb-16"> {/* increased bottom margin for spacing */}
-              <div style={{ fontSize: '2.5rem', lineHeight: '1.2', fontWeight: '600', marginBottom: '1rem' }}>
+            <div className="text-center mb-16">
+              {/* Ceremony - Secondary */}
+              <div style={{ fontSize: '1.5rem', lineHeight: '1.2', fontWeight: '500', marginBottom: '0.5rem', color: '#6b7280' }}>
                 10:30 AM - 11:15 AM
               </div>
-              <div style={{ fontSize: '1.125rem', fontWeight: '600', color: '#374151' }}>
+              <div style={{ fontSize: '1rem', fontWeight: '500', color: '#9ca3af', marginBottom: '2rem' }}>
                 Wedding Ceremony (Muhurtham)
+              </div>
+
+              {/* Reception - Main Focus */}
+              <div style={{ fontSize: '3rem', lineHeight: '1.2', fontWeight: '700', marginBottom: '0.5rem', color: '#1f2937' }}>
+                5:00 PM - 8:00 PM
+              </div>
+              <div style={{ fontSize: '1.5rem', fontWeight: '700', color: '#059669' }}>
+                Wedding Reception
               </div>
             </div>
 
@@ -167,8 +175,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-r from-rose-200 to-pink-200 rounded-xl blur-sm opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
             <div className="relative bg-white rounded-xl shadow-lg border border-white/50 overflow-hidden h-full">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.6934756533797!2d76.14556247503943!3d10.603121289535293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7eb80cc746e0f%3A0x13b00891d776e573!2sAlappat%20Auditorium%20(A%2FC)!5e0!3m2!1sen!2sin!4v1758115446824!5m2!1sen!2sin"
-                width="100%"
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.517267415244!2d76.1425077!3d10.6168645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7eb34c735c6cf%3A0x4101a13c3c0cc51b!2sMoon%20Light%20Palace%20Auditorium!5e0!3m2!1sen!2sin!4v1758220173140!5m2!1sen!2sin' width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
@@ -176,6 +183,7 @@ export default function Home() {
                 referrerPolicy="no-referrer-when-downgrade"
                 className="rounded-xl"
               ></iframe>
+
             </div>
           </div>
 
@@ -199,10 +207,10 @@ export default function Home() {
 
               <div className="space-y-4">
                 <div>
-                  <h4 style={{ fontSize: '1.125rem' }} className="text-gray-800 mb-2">Alappat Auditorium (A/C)</h4>
+                  <h4 style={{ fontSize: '1.125rem' }} className="text-gray-800 mb-2">Moon Light Palace Auditorium
+                  </h4>
                   <p className="text-gray-600 leading-relaxed text-2xl">
-                    Arampilly Road, Mundur, Thrissur,<br />
-                    Anjur, Kerala 680546
+                    J49V+2PM, Road, near Vidya Engineering College, Thalakkottukara, Kaiparambu, Kerala 680546
                   </p>
                 </div>
               </div>
