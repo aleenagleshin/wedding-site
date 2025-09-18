@@ -52,12 +52,15 @@ export default function WeddingCountdown() {
           {/* <h3 className="text-4xl md:text-5xl font-serif text-gray-800 mb-2">
             Our Wedding Day
           </h3> */}
-          <p className="text-gray-600 text-lg">October 19, 2025</p>
+          <p className="text-black-400 text-2xl md:text-2xl font-semibold">
+            October 19, 2025
+          </p>
+
         </div>
 
         {/* Countdown Display */}
         <div className="mb-8">
-          <div className="text-5xl md:text-7xl lg:text-6xl font-bold tracking-wider text-gray-800 mb-4 font-mono">
+          <div className="text-5xl md:text-9xl lg:text-7xl font-bold tracking-wider text-gray-800 mb-4 font-mono">
             {pad(days)}:{pad(hours)}:{pad(mins)}:{pad(secs)}
           </div>
           <div className="flex justify-center gap-8 md:gap-12 lg:gap-16 text-sm md:text-base uppercase tracking-widest text-gray-600 font-medium">
@@ -70,7 +73,7 @@ export default function WeddingCountdown() {
 
         {/* Romantic message */}
         <div className="mt-6 p-6 bg-white/60 backdrop-blur-sm rounded-lg border border-white/50 max-w-2xl mx-auto">
-          <p className="text-gray-700 font-serif text-lg md:text-xl italic leading-relaxed">
+          <p className="text-gray-900 font-serif text-lg md:text-xl italic leading-relaxed">
             "Every moment brings us closer to forever"
           </p>
           {/* <div className="flex justify-center mt-3">

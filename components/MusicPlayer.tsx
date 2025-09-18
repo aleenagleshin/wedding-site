@@ -11,8 +11,8 @@ export default function MusicPlayer({ src = '/music.mp3' }: { src?: string }) {
         if (!audioRef.current) return;
         if (playing) { audioRef.current.pause(); setPlaying(false); }
         else { audioRef.current.play(); setPlaying(true); }
-      }} className="p-2 rounded-full text-white border shadow-sm ">
-        {playing ? <Pause /> : <Play />}
+      }} className="p-8 rounded-full text-white border shadow-sm bg-black bg-opacity-50 hover:bg-opacity-70 transition-all">
+{playing ? <Pause className="w-8 h-8" /> : <Play className="w-8 h-8" />}
       </button>
       <audio ref={audioRef} src={src} loop />
     </div>

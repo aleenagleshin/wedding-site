@@ -12,10 +12,10 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/wish/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/wish/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }
