@@ -16,7 +16,7 @@ export const metadata = {
     description: 'Oct 19, 2025 Join Our Journey ',
     images: [
       {
-        url: `https://abhiramiwedsamal.vercel.app/og.png?t=${timestamp}`,
+        url: `https://abhiramiwedsamal.vercel.app/og-v1.png?t=${timestamp}`,
         width: 1200,
         height: 630,
         alt: 'Amal & Abhirami Wedding Invitation'
