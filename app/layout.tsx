@@ -13,7 +13,7 @@ export const metadata = {
   description: ' Oct 19, 2025 — Join our journey ',
   openGraph: {
     title: 'Amal & Abhirami — Wedding Invitation',
-    description: 'Oct 19, 2025 Join Our Journey ',
+    description: 'Oct 19, 2025 || Join Our Journey ',
     images: [
       {
         url: `https://abhiramiwedsamal.vercel.app/og-v1.png?t=${timestamp}`,
